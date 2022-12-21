@@ -1,6 +1,6 @@
 {
   "name": "food-tinder",
-  "proxy": "http://192.168.27.100:8082",
+  "proxy": "http://localhost:8082",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

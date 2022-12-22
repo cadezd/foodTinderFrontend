@@ -28,7 +28,7 @@ function Deck() {
   const [objs, setObjs] = useState([]);
 
   const fetchData = async () => {
-    fetch("http://10.0.2.15:8080/product/get")
+    fetch("http://localhost:8080/product/get")
       .then((response) => response.json())
       .then((data) => {
         setObjs(data);
